@@ -12,7 +12,7 @@ local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
 local maxspeed = 50 
 local speed = 0 
-game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Pro Osu Player", Duration = 20})
+game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Pro Osu Player", Duration = 10})
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
 bg.P = 9e4 
