@@ -1,4 +1,4 @@
- local ToFly = "y" 
+local ToFly = "y" 
 
 repeat wait() 
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
@@ -12,7 +12,7 @@ local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
 local maxspeed = 50 
 local speed = 0 
-game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Pro Osu Player", Duration = 10})
+ game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Osu player ! !", Duration = 10})
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
 bg.P = 9e4 
@@ -167,7 +167,7 @@ wait(20)
 delay(30, function()
 macros()
 end)
--- 3etape
+-- 3eteape
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-151, 400, -307)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -187,7 +187,7 @@ local location = CFrame.new(-195, 444, 210)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
---5etape
+--5eyye
 local pl       = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-260, 475, 510)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -202,5 +202,7 @@ wait(1)
 for i=1,7 do
     macros()
 end
-wait(2)
+wait(1)
 game:GetService("TeleportService"):Teleport(4042427666, LocalPlayer)
+
+
