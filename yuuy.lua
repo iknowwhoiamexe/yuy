@@ -12,7 +12,7 @@ local ctrl = {f = 0, b = 0, l = 0, r = 0}
 local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
 local maxspeed = 50 
 local speed = 0 
- game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Osu player ! !", Duration = 10})
+game.StarterGui:SetCore("SendNotification",{Title = "Starting Dungeon", Text = "Gay Script OsuPlayer", Duration = 10})
 function Fly() 
 local bg = Instance.new("BodyGyro", torso) 
 bg.P = 9e4 
@@ -142,7 +142,7 @@ wait(5)
 macros()
 
 end)
---1etape
+--Primera etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(380, 380, -225)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -153,7 +153,7 @@ macros()
 wait(5)
 macros()
 end)
--- 2etape
+-- Segunda etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(163, 389, -293)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -167,7 +167,7 @@ wait(20)
 delay(30, function()
 macros()
 end)
--- 3eteape
+-- tercera etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-151, 400, -307)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -181,13 +181,13 @@ wait(13)
 delay(19, function()
 macros()
 end)
---4etape
+--Cuarta etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-195, 444, 210)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
---5eyye
+--quinta etapa
 local pl       = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-260, 475, 510)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
